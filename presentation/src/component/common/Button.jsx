@@ -13,15 +13,15 @@ const Button = ({children, className, ...rest}) => {
 };
 
 const StyledButton = styled.div`
-  padding: 10px 15px;
-  cursor: pointer;
-  color: ${props => props.color};
-  border-radius: 5px;
-  background: rgba(0,0,0,.5);
-  box-shadow: rgba(0,0,0,.3) 1px 1px 5px 2px;
-  
-  &:hover {
-    background: rgba(0,0,0,.3);
-  }
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    background: rgba(0,0,0,.5);
+    box-shadow: rgba(0,0,0,.3) 1px 1px 5px 2px;
+    
+    &:hover {
+        background: rgba(0,0,0,.3);
+    }
 `;
 export default Button;
